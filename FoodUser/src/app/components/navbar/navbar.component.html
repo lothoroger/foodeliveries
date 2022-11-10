@@ -11,23 +11,27 @@
       <li class="nav-item active">
         <a class="nav-link" routerLink="/home">Home <span class="sr-only">(current)</span></a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/products">Order Here</a>
+      </li>
        <li class="nav-item">
-        <a class="nav-link" routerLink="#">Cart</a>
+        <a class="nav-link" routerLink="/cart">Cart</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="
-        #">Payment</a>
+        <a class="nav-link" routerLink="/payment">Payment</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="#">Order Summary</a>
+        <a class="nav-link" routerLink="/orders">Order Summary</a>
       </li>
+    
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toogle"  href="/login" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">LOGIN</a>
-        <div class="dropdown-menu" aria-labeledby="navbarDropdown">
+       <a class="nav-link dropdown-toogle"  href="/login" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">LOGIN</a>
+         <div class="dropdown-menu" aria-labeledby="navbarDropdown">
           <a class="dropdown-item" routerLink="/login">Login </a>
           <a class="dropdown-item" routerLink="/register">Register</a>
           <a class="dropdown-item" routerLink="/changepwd">Chage Password</a>
-      </div>   
+         </div>
+      </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">

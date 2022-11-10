@@ -1046,3 +1046,17 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2022-11-09 07:38:01.870
 !MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.31 has been relocated to com.mysql:mysql-connector-j:jar:8.0.31: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.tm.terminal.view.ui 4 0 2022-11-09 20:04:36.708
+!MESSAGE Exception when reading from stream. Possibly caused by: ReadFile: 109: The pipe has been ended.
+!STACK 0
+java.io.IOException: ReadFile: 109: The pipe has been ended.
+	at org.eclipse.cdt.utils.pty.ConPTY.checkErr(ConPTY.java:344)
+	at org.eclipse.cdt.utils.pty.ConPTY.read(ConPTY.java:283)
+	at org.eclipse.cdt.utils.pty.ConPTYInputStream.read(ConPTYInputStream.java:42)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:105)
+	at org.eclipse.tm.terminal.view.ui.streams.OutputStreamMonitor.readStream(OutputStreamMonitor.java:205)
+	at org.eclipse.tm.terminal.view.ui.streams.OutputStreamMonitor.lambda$0(OutputStreamMonitor.java:167)
+	at java.base/java.lang.Thread.run(Thread.java:833)

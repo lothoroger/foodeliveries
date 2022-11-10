@@ -19,19 +19,19 @@ export class LoginComponent implements OnInit {
   })
 
   constructor(
-    private authService: AuthService,
-    private toast: ToastrService
+   // private authService: AuthService,
+   // private toast: ToastrService
 
   ) { }
 
   ngOnInit(): void {
   }
-
+/*
   loginUser = () => {
     if (this.loginForm.invalid) {
       this.toast.info("All Field Rquired", "");
       return;
     }
-    this.authService.loginUser(this.loginForm.value);
-  }
+    //this.authService.loginUser(this.loginForm.value);
+  } */
 }

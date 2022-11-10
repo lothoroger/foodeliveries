@@ -9,6 +9,8 @@ import { ChangePasswordComponent } from './components/change-password/change-pas
 import { RegisterComponent } from './components/register/register.component';
 import { HeaderComponent } from './components/header/header.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { CustomersComponent } from './components/customers/customers.component';
+import { CuisineComponent } from './components/cuisine/cuisine.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     ChangePasswordComponent,
     RegisterComponent,
     HeaderComponent,
-    NavbarComponent
+    NavbarComponent,
+    CustomersComponent,
+    CuisineComponent
   ],
   imports: [
     BrowserModule,

@@ -11,6 +11,10 @@ import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { ChangePasswordComponent } from './components/change-password/change-password.component';
 import { ProductsComponent } from './components/products/products.component';
+import { CustomersComponent } from './components/customers/customers.component';
+import { CartComponent } from './components/cart/cart.component';
+import { PaymentComponent } from './components/payment/payment.component';
+import { OrdersComponent } from './components/orders/orders.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +25,11 @@ import { ProductsComponent } from './components/products/products.component';
     LoginComponent,
     RegisterComponent,
     ChangePasswordComponent,
-    ProductsComponent
+    ProductsComponent,
+    CustomersComponent,
+    CartComponent,
+    PaymentComponent,
+    OrdersComponent
   ],
   imports: [
     BrowserModule,
