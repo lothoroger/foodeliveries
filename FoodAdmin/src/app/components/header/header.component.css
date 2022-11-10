@@ -1,0 +1,10 @@
+.alert {
+    margin-bottom: 0 !important;
+    text-align: center;
+}
+
+.alert-grey {
+    color: #850e14;
+    background-color: rgba(51, 19, 19, 0.08);
+    border-color: rgb(0 0 0 / 8%);
+}
