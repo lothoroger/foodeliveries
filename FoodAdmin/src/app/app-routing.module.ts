@@ -14,7 +14,7 @@ const routes: Routes = [
   { path: "login", component:LoginComponent},
   { path: "changepwd", component:ChangePasswordComponent},
   { path: "customers", component:CustomersComponent},
-  { path: "cuisine", component:CuisineComponent},
+  { path: "cuisine", component:CuisineComponent, canActivate:[]},
   { path: "**", redirectTo:"/home",pathMatch:"full"}
 ]
 
